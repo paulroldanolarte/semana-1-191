@@ -8,8 +8,13 @@ PSOBLES Servicios:
 Los servicios van enfocados productores enfocadoe en la parte agropecuaria y/o gente interesada en modernizar o adaptar espacios urbanos
 
 1)Automatización de servicios agropecuarios con tecnologias 4.0
-2)Venta de insumos. por ejemplo : agentes de control biologico, paneles solares , bombas de agua , tierra abonada ,
+
+2)Venta de insumos. por ejemplo : agentes de control biologico, paneles solares , bombas de agua , tierra abonada ...
+
+
 3)Fabricar maquinaria especializada
+
+
 4)Consultoria para crear Biosistemas tecnificados. ( Es decir, sistemas que tengan una buena simbiosis entre especies y no atenten a la salud de los ecosistemas donde se pueda monitoriar y controlar a partir de la toma de datos y uso de herramientas tecnologicas).
 
 POSIBLES Noticias:
