@@ -1,5 +1,18 @@
 # Proyecto final Sprint I
 
+Proyecto colaborativo del ciclo III de MinTic 2022
+
+Grupo: 191
+
+Integrantes & roles:
+
+Desarrollador Sección Equipo - Paul Roldán Olarte
+Desarrollador Sección Servicios - Juan Sebastian Riaño
+Desarrollador Sección Noticias - Cristian Ferney
+Desarrollador Sección Header y Footer - Alejandro Bermúdez
+
+OBJETIVO:
+
 Desarrollar un sitio web que conste de 5 secciones, cada sección deberá ser realizada por un estudiante. Los diferentes elementos del sitio web contarán con estilos personalizados creados por los estudiantes y deberán estar condensados en una sola hoja de estilos.
 
 Para iniciar con el desarrollo del sitio web, los estudiantes deberán definir previamente aspectos como ancho del sitio (mínimo 1200px), la información a presentar en el sitio web, diseñar un mockup, borrador o bosquejo, también descargar, diseñar o crear los recursos a utilizar como imágenes, iconos, logos, entre otros y finalmente asignar responsable a cada sección.
