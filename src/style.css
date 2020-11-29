@@ -1,10 +1,16 @@
 .body{
     font-family: sans-serif;
     width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header{
-    background-color: aqua;
+    background-color: rgba(197, 243, 243, 0.979);
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .servicios{
@@ -54,5 +60,61 @@
 .footer{
 
     background-color: darksalmon;
+}
+
+.barra-superior{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    background: #1b1b1b;
+
+
+}
+
+.titulo-principal,.contenedor-menu {
+    width: 50%;
+    /* background: black; */
+    color: white;
+    font-size: 20px;
+    font-weight: 10;
+    /* background: steelblue; */
+    /* padding-left: 70; */
+}
+
+.titulo-principal{
+    text-align: center;
+}
+
+.menu-principal{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.menu-principal__item{
+    /* background: black; */
+    
+}
+.menu-principal__item >a{
+    text-decoration: none;
+    color:white;
+    line-height: 70px;
+    font-size: 18px;
+}
+
+.menu-principal__item >a:hover{
+    font-size: 25px;
+    text-decoration: underline;
+    box-shadow: 0 0 5px#33ffff;
+    border-radius: 5px;
+}
+.imgp{
+    width: 1200px; height: 400px;
+}
+
+.banner__titulo{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 }
 
