@@ -1,6 +1,8 @@
 .body{
     font-family: sans-serif;
     width: 1200px;
+    
+
 }
 
 .header{
@@ -8,8 +10,33 @@
 }
 
 .servicios{
-    background-color: beige;
+    
+    background-color: rgb(197, 243, 243);
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
 }
+.servicios_contenedor {
+
+    display: inline-block;
+    text-align: center;
+    width: 33.08%;
+    margin: 70px 20px 20px;
+    
+
+
+}
+
+.servicios_texto {
+
+    text-align: justify;
+    padding: 20px;
+    margin: 40px 20px 20px;
+
+}
+
 
 .noticias{
     background-color: burlywood;
