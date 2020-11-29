@@ -14,10 +14,42 @@
 .noticias{
     background-color: burlywood;
 }
+/*Aqui se encuentra el estilo de los integrantes*/
+.integrantes{
+    background-color:#1C1C1C;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: auto;
+    margin-left: auto;
 
-.miembros{
-    background-color: darkcyan;
 }
+/*Aqui se encuentra el estilo de cada participante*/
+.participante{
+    width: 23%;
+    height: auto;
+    display: inline-block;
+    margin: 20px 4px 20px;
+    text-align: center;
+    background-color:  rgba(197, 243, 243, 0.979);
+}
+
+/* Aqui se encuentra el estilo de letra del participante  */
+.Letra-texto-participante{
+    text-align:justify;
+    font-style: italic; 
+    justify-content: space-evenly;
+    margin: 10px 20px 10px ;
+    border-left:#1C6B68 10px solid;
+
+}
+
+/* Aqui se encuentra el estilo de Nombre participante  */
+.nombreParticipante{
+    color: aliceblue;
+    font-weight: bold;
+    border-left:#1C6B68 5px solid;
+}
+
 
 .footer{
 
