@@ -1,6 +1,8 @@
 .body{
     font-family: sans-serif;
     width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .header{
@@ -12,15 +14,25 @@
 }
 
 .noticias{
-    background-color: burlywood;
+    background-color: rgba(197, 243, 243, 0.979);
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;  
+}
+.texto_noti{
+
+    margin: 10px 20px 10px ;
+    text-align: justify;   
 }
 
 .miembros{
     background-color: darkcyan;
+    margin 5px 4px 0;
 }
 
 .footer{
 
     background-color: darksalmon;
+    
 }
 
