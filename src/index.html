@@ -9,24 +9,27 @@
 <body>
 
     <!-- inicio header -->
-    <header>
+    <header class="header">
         <!-- inicio menu -->
-        <section>
-             <nav>
-                 <ul>
-                     <li><a href="#">Inicio</a></li>
-                     <li><a href="#services"> Servicios</a></li>
-                     <li><a href="#news">Noticias</a> </li>
-                     <li><a href="#team">Equipo de Trabajo</a></li>
+        <section class="barra-superior">
+            <div class="titulo-principal">
+                <h1>Grupo 191</h1>
+            </div>
+             <nav class="contenedor-menu">
+                 <ul class="menu-principal">
+                     <li class="menu-principal__item"><a href="#">Inicio</a></li>
+                     <li class="menu-principal__item"><a href="#services"> Servicios</a></li>
+                     <li class="menu-principal__item"><a href="#news">Noticias</a> </li>
+                     <li class="menu-principal__item"><a href="#team">Equipo de Trabajo</a></li>
                  </ul>
              </nav>
         </section>  
         <!-- fin menu -->
 
         <!-- Inicio Baner -->
-        <section>
-            <h2>Transformacion de los sistemas alimentarios para alcanzar los ODS</h2>
-            <img src="https://placeimg.com/1200/300/nature" alt="imagen banner">
+        <section class="banner">
+            <h2 class="banner__titulo">Transformacion de los sistemas alimentarios para alcanzar los </h2>
+            <img src="imagenes\prue.png" alt="imagen banner" class="imgp">
         </section>
         <!-- Fin Baner -->
 
@@ -124,39 +127,39 @@
         <!-- fin seccion noticias -->
 
         <!-- inicio seccion equipo -->
-        <section id="team">
+        <section id="team" class="integrantes">
             <!-- Inicio Integrante 1 -->
-            <div>
+            <div class="participante">
                 <h2>PAUL ROLDÁN OLARTE</h2>
                 <h4>BIOINGENIERO</h4>
                 <h4>Egresado de la Universidad El Bosque</h4>
-                <img src="imagenes\fotoPaul.jpeg" alt="imagen team">
-                <p>
-                    Paul Roldán Olarte , Bioingeniero de 24 años de edad. Apasionado de la biotecnología y la ingeniería aplicada a proyectos relacionados con el campo de la agricultura, la biodiversidad y la sostenibilidad. Amante de la natación con aletas y el deporte en general. Actualmente trabaja en un proyecto de emprendimiento para produccion de peces nativos del a región amazonica en un sistema acuapÓnico.
+                <img src="imagenes\fotoPaul.jpeg" alt="imagen team" width="275" height="300">
+                <p class="Letra-texto-participante">
+                    Bioingeniero de 24 años de edad. Apasionado de la biotecnología y la ingeniería aplicada a proyectos relacionados con el campo de la agricultura, la biodiversidad y la sostenibilidad. Amante de la natación con aletas y el deporte en general. Actualmente trabaja en un proyecto de emprendimiento para produccion de peces nativos del a región amazonica en un sistema acuapónico.
                 </p>
 
             </div>
             <!-- Fin Integrante 1 -->
                 
             <!-- Inicio Integrante 2 -->
-            <div>
+            <div class="participante">
                 <h2>JUAN SEBASTIAN RIAÑO</h2>
                 <h4>ADMINISTRADOR DEPORTIVO</h4>
                 <h4>Universidad Distrital Francisco Jose de Caldas</h4>
-                <img src="imagenes\fotoSebastian.jepg" alt="imagen team">
-                <p>
+                <img src="imagenes\fotoSebastian.jpeg" alt="imagen team" width="281" height="275">
+                <p class="Letra-texto-participante">
                     Juan Sebastián Riaño Patiño , 25 años  Administrador deportivo en formación , amante del futbol , el ciclismo y las artes audiovisuales , interesado en el desarrollo de software enfocado tanto para la gerencia de entidades deportivas , como para la gestión y análisis de disciplinas deportivas  , actualmente trabaja en un proyecto de emprendimiento para la creación de un servicio  de cardio Tennis en la ciudad de Bogotá.
                 </p>
             </div>
             <!-- Fin Integrante 2 -->
 
             <!-- Inicio Integrante 3 -->
-            <div>
+            <div class="participante">
                 <h2>CRISTIAN FERNEY</h2>
                 <h4>LICENCIADO EN FISICA Y MASTER EN </h4>
                 <h4>Egresado de la Universidad Distrital Francisco Jose de Caldas</h4>
-                <img src="imagenes\fotoCristian.jpg" alt="imagen team">
-                <p>
+                <img src="imagenes\fotoCristian.jpg" alt="imagen team" width="281" height="275">
+                <p class="Letra-texto-participante"> 
                     Cristian Alvarez, Lic Fisica y estudiante de maestria, enamorado de la ciencia  la musica y la comida , interesado en enseñanza atraves de la programación.
                 </p>
 
@@ -164,12 +167,12 @@
             <!-- Fin Integrante 3 -->
 
             <!-- Inicio Integrante 4 -->
-            <div>
+            <div class="participante">
                 <h2>ALEJANDRO BERMÚDEZ </h2>
                 <h4>INGENIERO MECÁNICO </h4>
                 <h4>Egresado de Universidad Nacional de Colombia</h4>
-                <img src="imagenes\fotoAlejandro.jpeg" alt="imagen team">
-                <p>
+                <img src="imagenes\fotoAlejandro.jpeg" alt="imagen team" width="281" height="275">
+                <p class="Letra-texto-participante">
                     Luis Alejandro Bermúdez Valdés, 23 años Ingeniero mecánico egresado de la Universidad Nacional de Colombia, me gusta hacer ejercicio, practica running y futbol, interesado en la programación, uso eficiente de la energía, energías renovables y automatización industrial.
                 </p>
                 
@@ -183,13 +186,12 @@
 
     <!-- fin header -->
     <!-- inicio footer -->
-    <footer>
+    <footer class="footer">
         <!-- Inicio primer parte -->
-        <div>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum,
-                cum perspiciatis consequuntur provident quam ut ipsam esse nisi eos pariatur!
-                Ipsa soluta culpa aliquid dicta, ad tenetur exercitationem voluptates atque.
+        <div class="footer_titulo">
+            <h2>Sprint1</h2>
+            <p class="footer_parrafo">
+                La temática tratada consiste en la transformacion de los sistemas alimentarios para alcanzar los ODS direccionada al área rural y a la agricultura urbuna
             </p>
             <h5>//github.com/paulroldanolarte/semana-1-191.git</h5>
             <a href="https://github.com/paulroldanolarte/semana-1-191.git">Ir al repositorio</a>
@@ -197,8 +199,9 @@
         </div>
         <!-- Fin primer parte -->
         <!-- Inicio Segunda parte -->
-        <div>
-            <ul>
+        <div class="footer_team">
+            <h2>Grupo de Trabajo</h2>
+            <ul class="footer_rol">
                 <li>Rol:Desarrollador Sección Equipo - Paul Roldán Olarte- paulroldanolarte@gmail.com</li>
                 <li>Rol:Desarrollador Sección Servicios - Juan Sebastian Riaño - juanserp7@gmail.com</li>
                 <li>Rol:Desarrollador Sección Noticias - Cristian Ferney - kristian0146@gmail.com</li>
