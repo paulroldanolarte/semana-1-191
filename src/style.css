@@ -1,0 +1,26 @@
+.body{
+    font-family: sans-serif;
+    width: 1200px;
+}
+
+.header{
+    background-color: aqua;
+}
+
+.servicios{
+    background-color: beige;
+}
+
+.noticias{
+    background-color: burlywood;
+}
+
+.miembros{
+    background-color: darkcyan;
+}
+
+.footer{
+
+    background-color: darksalmon;
+}
+
