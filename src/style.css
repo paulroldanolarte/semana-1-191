@@ -1,6 +1,8 @@
 .body{
     font-family: sans-serif;
     width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .header{
@@ -41,7 +43,15 @@
 
 
 .noticias{
-    background-color: burlywood;
+    background-color: rgba(197, 243, 243, 0.979);
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;  
+}
+.texto_noti{
+
+    margin: 10px 20px 10px ;
+    text-align: justify;   
 }
 /*Aqui se encuentra el estilo de los integrantes*/
 .integrantes{
@@ -50,7 +60,6 @@
     justify-content: space-evenly;
     margin-right: auto;
     margin-left: auto;
-
 }
 /*Aqui se encuentra el estilo de cada participante*/
 .participante{
@@ -81,7 +90,6 @@
 
 
 .footer{
-
     background-color: #1b1b1b;
     display: flex;
 }
