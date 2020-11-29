@@ -7,9 +7,13 @@ Grupo: 191
 Integrantes & roles:
 
 Desarrollador Sección Equipo - Paul Roldán Olarte
+
 Desarrollador Sección Servicios - Juan Sebastian Riaño
+
 Desarrollador Sección Noticias - Cristian Ferney
+
 Desarrollador Sección Header y Footer - Alejandro Bermúdez
+
 
 OBJETIVO:
 
